@@ -1,15 +1,19 @@
-variable "aws_access_key" {
-  default = "ACCESS_KEY"
+variable "AWS_ACCESS_KEY_ID" {
+  default = ""
+  sensitive = true
 }
 
-variable "aws_secret_key" {
-  default = "SECRET_KEY"
+variable "AWS_SECRET_ACCESS_KEY" {
+  default = ""
+  sensitive = true
 }
 
-variable "aws_session_token" {
-  default = "TOKEN"
+variable "AWS_SESSION_TOKEN" {
+  default = ""
+  sensitive = true
 }
 
 variable "region" {
   default = "eu-west-1"
+  sensitive = true
 }
