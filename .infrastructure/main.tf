@@ -23,6 +23,6 @@ provider "aws" {
 
 module "s3" {
   source      = "./s3"
-  # bucket_name = "tf-hello-world"
+  bucket_name = "tf-hello-world"
   bucket_prefix = "bm-efio-"
 }

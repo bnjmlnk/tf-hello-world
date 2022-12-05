@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "tf-hello-world" {
   bucket_prefix = "${var.bucket_prefix}"
-  # bucket = "${var.bucket_name}"
+  bucket = "${var.bucket_name}"
   force_destroy = false
 
   tags = {
