@@ -1,2 +1,5 @@
 # tf-hello-world
-Project for learning Terraform.
+Project for learning Terraform Cloud.
+
+1. Terraform Clould will plan infrastructure on push.
+2. GitHub Action workflow will deploy to an AWS S3 Bucket on push.
